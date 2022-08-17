@@ -6,7 +6,7 @@
     "start": "node ./src/app.js",
     "dev": "nodemon ./src/app.js",
     "generate:migration": "npx sequelize-cli migration:generate --name",
-    "create:migration": "npx sequelize-cli db:migrate",
+    "execute:migration": "npx sequelize-cli db:migrate",
     "undo:migration": "npx sequelize-cli db:migrate:undo"
   },
   "dependencies": {
